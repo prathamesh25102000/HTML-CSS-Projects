@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Workshop Form</title>
+    <style>
+        body {
+            line-height: 1.2em;
+            background-color: lightgreen;
+            border: 10px solid darkorange;
+            border-radius: 10px;
+            margin: 15px auto 15px auto;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: crimson;
+            font-size: xx-large;
+            font-family: fantasy;
+            font-style: oblique;
+            text-decoration: gainsboro;
+            text-transform: uppercase;
+            text-shadow: 3px 3px whitesmoke;
+            text-decoration: underline;
+        }
+        
+        table {
+            background-color: crimson;
+            border: 10px solid gold;
+            border-radius: 5px;
+            text-align: center;
+            font-family: cursive;
+            font-style: bolder;
+            margin: auto;
+        }
+        
+        p {
+            color: rgb(56, 14, 241);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.7em;
+            font-weight: 300;
+        }
+        
+        #list {
+            color: rgb(228, 28, 161);
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px auto 20px auto;
+            text-shadow: 2px 2px whitesmoke;
+            list-style-position: inside;
+        }
+        
+        li {
+            margin-top: 15px;
+        }
+        
+        thead {
+            color: darkmagenta;
+            font-weight: 600;
+            font-size: x-large;
+            text-decoration: underline;
+            text-shadow: 1px 1px lightcoral;
+        }
+        
+        td,
+        th {
+            padding: 5px 30px 5px 10px;
+            border-spacing: 5px 15px;
+            border: 3px solid blanchedalmond;
+            empty-cells: hide;
+        }
+        
+        #a {
+            color: darkturquoise;
+            font-weight: bolder;
+            font-size: x-large;
+            text-decoration: underline;
+            text-shadow: 1px 1px 1px white;
+            padding: 5px 30px 5px 10px;
+        }
+        
+        fieldset {
+            border: 10px solid rebeccapurple;
+            margin: 30px auto 30px auto;
+            text-align: center;
+            border-radius: 5px;
+            padding: 20px;
+            line-height: 1.6em;
+            color: fuchsia;
+            font-size: 20px;
+            width: 40%;
+        }
+        
+        #reg {
+            color: crimson;
+            font-size: large;
+            font-weight: 200;
+            background-color: burlywood;
+            border: 5px solid rgb(224, 12, 23);
+            border-radius: 6px;
+        }
+        
+        #reg:hover {
+            background-color: gold;
+        }
+        
+        legend {
+            color: red;
+            border: 5px solid rebeccapurple;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: aliceblue;
+        }
+        
+        input[type="text"],
+        input[type="email"] {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Poetry Workshops</h1>
+    <p>We will be conducting a number of poetry workshops and symposiums throughout the year</p>
+    <p>Please note that the following events are free to members:</p>
+    <ul id="list">
+        <li>A Poetic Perspective</li>
+        <li>Walt Whitman at War</li>
+        <li>Found Poems and Outsider Poetry</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>New York</th>
+                <th>Chicago</th>
+                <th>San Fransisco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="a">A Poetic Perspective</th>
+                <td>Sat, 4 Feb 2012</br>
+                    11am - 2pm
+                </td>
+                <td>Sat, 3 Mar 2012</br>
+                    11am - 2pm
+                </td>
+                <td>Sat, 17 Mar 2012</br>
+                    11am - 2pm
+                </td>
+            </tr>
+            <tr>
+                <th id="a">Walt Whitman at War</th>
+                <td>Sat, 7 Apr 2012 </br>
+                    11am - 1pm
+                </td>
+                <td>
+                    Sat, 5 May 2012 </br>
+                    11am - 1pm
+                </td>
+                <td>sat, 19 May 2012</br>
+                    11am - 1pm
+                </td>
+            </tr>
+            <tr>
+                <th id="a">Found Poems & Outsider Poetry</th>
+                <td>Sat, 9 Jun 2012 </br>
+                    11am - 2pm
+                </td>
+                <td>Sat, 7 Jul 2012 </br>
+                    11am - 2pm
+                </td>
+                <td>Sat, 21 Jul 2012 </br>
+                    11am - 2pm
+                </td>
+            </tr>
+            <tr>
+                <th id="a">Nature's Miracle: An Exploration</th>
+                <td>Sat, 4 Aug 2012 </br>
+                    11am - 3pm
+                </td>
+                <td>Sat, 8 Sep 2012 </br>
+                    11am - 3pm
+                </td>
+                <td>Sat, 15 Sep 2012 </br>
+                    11am - 3pm
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </hr>
+    <form action="file:///C:/Users/Sai/Desktop/poetry%20form.html" method="GET">
+
+        <fieldset>
+            <legend>Register Your Interest</legend>
+            <label for="Your name">Your name:</label>
+            <input type="text" name="name" id="name" required="required" />
+            </br>
+            <label for=" Your email ">Your email:</label>
+            <input type="email " name="email " id="email " required="required" />
+            </br>
+            <label for="center">Your Closest Center:</label>
+            <select name="location" id="city">
+           <option value="ny">New York</option>
+           <option value="ch">Chicago</option>
+           <option value="sf">San-Fransisco</option>
+        </select>
+            </br>
+            <label for="Poetic" id="pt">Are you an existing member ?</label>
+            <input type="radio" name="res" id="y" value="Yes" /> Yes
+            <input type="radio" name="res" id="n" value="No" /> No
+            </br>
+
+            <input type="submit" value="Register" id="reg" />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>>
+
+</html>>

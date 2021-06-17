@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        li {
+            display: inline;
+            margin: 20px 20px 20px 20px;
+            font-size: 1.4em;
+        }
+        
+        nav {
+            background-color: burlywood;
+            padding: 0.1px 0.1px 0.1px 0.1px;
+        }
+        
+        header {
+            border: 3px solid bisque;
+            background-color: gray;
+        }
+        
+        header hgroup {
+            color: lemonchiffon;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            text-shadow: 3px 3px rgb(182, 40, 182);
+        }
+        
+        #kitch {
+            margin: 10px 10px 10px 10px;
+        }
+        
+        #yk {
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-size: xx-large;
+            font-weight: 600;
+        }
+        
+        #jc {
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            word-spacing: 0.8em;
+            letter-spacing: 0.1em;
+        }
+        
+        aside section a {
+            display: block;
+        }
+        
+        article {
+            float: left;
+        }
+        
+        .f1,
+        .f2 {
+            float: left;
+            width: 39%;
+            border: 5px solid darkorange;
+        }
+        
+        #fw,
+        #od {
+            color: crimson;
+        }
+        
+        footer {
+            top: 500px;
+        }
+        
+        #jv,
+        #sm {
+            color: darkmagenta;
+            font-weight: bolder;
+            font-style: italic;
+        }
+        
+        #jv,
+        #sm,
+        #fw,
+        #od,
+        hgroup p {
+            margin-left: 45%;
+        }
+        
+        .PR,
+        .cd {
+            color: red;
+            margin-left: 75%;
+            margin-bottom: 100px;
+        }
+        
+        a :hover {
+            color: rgb(9, 212, 26);
+        }
+        
+        #ad {
+            color: brown;
+        }
+        
+        figcaption {
+            margin-left: 25px;
+            color: red;
+        }
+        
+        a {
+            color: red;
+            margin: 20px 20px 20px 20px;
+        }
+        
+        footer {
+            background-color: gray;
+            color: purple;
+            font-weight: bolder;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        header hgroup {
+            float: right;
+            margin-right: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <img src="C:\Users\Sai\Downloads\New folder\kitchen.jpg" alt="Kitchen" height="120px" width="100px" id="kitch" />
+            <hgroup>
+                <h1 id="yk">Yoko's Kitchen</h1>
+                <h3 id="jc">Japanese cooking classes</h3>
+            </hgroup>
+            <nav>
+                <ul class="l1">
+                    <li><a href="www.google.com">Home</a></li>|
+                    <li><a href="">Classes</a></li>|
+                    <li><a href="">Catering</a></li>|
+                    <li><a href="">About</a></li>|
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="s1">
+            <article>
+                <figure class="f1">
+                    <img src="C:\Users\Sai\Downloads\New folder\bok choy.jpg" alt="Bok Choy" />
+                    <figcaption>Bok Choy</figcaption>
+                </figure>
+                <hgroup>
+                    <h1 id="jv">Japanese Vegeterian</h1>
+                    <h3 id="fw">Five week course in London</h3>
+                </hgroup>
+                <p id="af">A five week introduction to traditional Japanese vegeterian meals, teaching you a selection of rice and noodle dishes. </p>
+            </article>
+            <article>
+                <figure class="f2"><img src="C:\Users\Sai\Downloads\New folder\teriyaki sauce.jpg" alt="Teriyaki Sauce" />
+                    <figcaption>Teriyaki Sauce</figcaption>
+                </figure>
+                <hgroup>
+                    <h1 id="sm">Sauces Masterclass</h1>
+                    <h3 id="od">One day workshop</h3>
+                </hgroup>
+                <p>An intensive one day course looking at how to create the most delicious sauces for use in a range of japanese cookery.</p>
+            </article>
+        </section>
+        <aside>
+            <section class="PR">
+                <h2>Popular Recipes</h2>
+                <a href="">Yakitori(Grilled Chicken)</a>
+                <a href="">Tsukune(minced chicken pattice)</a>
+                <a href="">Okonomiyaki (savory pabcakes)</a>
+                <a href="">mizutaki (chicken stew)</a>
+            </section>
+            <section class="cd">
+                <h1>Contact</h1>
+                <p id="ad">Yoko's Kitchen</br>
+                    27 Redchurch Street</br>Shoreditch</br>London E2 7DP</p>
+            </section>
+        </aside>
+        <footer>&copy:2011 Yoko's Kitchen</footer>
+    </div>
+</body>
+
+</html>>
